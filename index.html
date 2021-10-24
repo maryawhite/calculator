@@ -7,46 +7,50 @@
 </head>
 <body>
 <div id="outer-div">
+    <p>input <span id="userinput"></span></p>
+    <p>output <span id="output"></span></p>
+
     <div class="inner-divs" id="top-row">
-        <div>&#9732;</div>
+        <div><span id="comet">&#9732;</span></div>
         <div>(</div>
         <div>)</div>
-        <div>&#247;</div>
+        <div class="oper">&#247;</div> <!--divide sign-->
         <div>x&#178;</div>  <!--x squared-->
     </div>
     <div class="inner-divs" id="second-row">
         <div>7</div>
         <div>8</div>
         <div>9</div>
-        <div>&#215;</div>
+        <div class="oper">&#215;</div> <!--multiplication sign-->
         <div>&#8730;</div>  <!--square rt-->
     </div>
     <div class="inner-divs" id="third-row">
         <div>4</div>
         <div>5</div>
         <div>6</div>
-        <div>&#8722;</div>
+        <div class="oper">&#8722;</div> <!--minus sign-->
         <div>&#37;</div>
     </div>
     <div class="inner-divs" id="fourth-row">
         <div>1</div>
         <div>2</div>
         <div>3</div>
-        <div>&#43;</div>
-        <div>CLR</div>
+        <div class="oper">&#43;</div> <!--plus sign-->
+        <div id="clr">CLR</div>
     </div>
     <div class="inner-divs" id="fifth-row">
         <div>0</div>
         <div>.</div>
         <div>&#43;/&#8722;</div>
-        <div>&#61;</div>
+        <div class="oper">&#61;</div> <!--equals sign-->
         <div></div>
     </div>
+
 </div>   <!--end outer div-->
 
-<footer>&#9752;</footer>
+<footer><p>&#9752; Mary White | Codeup | Quasar Cohort | October 2021</p></footer>
 
-
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script src="main.js"></script>
 </body>
 </html>
