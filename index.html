@@ -7,42 +7,44 @@
 </head>
 <body>
 <div id="outer-div">
-    <p>input <span id="userinput"></span></p>
-    <p>output <span id="output"></span></p>
+    <p>input: <span id="userinput"></span></p>
+    <p>output: <span id="output"></span></p>
 
     <div class="inner-divs" id="top-row">
         <div><span id="comet">&#9732;</span></div>
         <div>(</div>
         <div>)</div>
-        <div class="oper">&#247;</div> <!--divide sign-->
-        <div>x&#178;</div>  <!--x squared-->
+        <div class="oper">/</div> <!--divide sign-->
+        <!--<div class="oper">&#247;</div> &lt;!&ndash;divide sign&ndash;&gt;-->
+        <div id="xSquared">x&#178;</div>  <!--x squared-->
     </div>
     <div class="inner-divs" id="second-row">
-        <div>7</div>
-        <div>8</div>
-        <div>9</div>
-        <div class="oper">&#215;</div> <!--multiplication sign-->
+        <div class="number">7</div>
+        <div class="number">8</div>
+        <div class="number">9</div>
+        <div class="oper">*</div> <!--multiplication sign-->
         <div>&#8730;</div>  <!--square rt-->
     </div>
     <div class="inner-divs" id="third-row">
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
-        <div class="oper">&#8722;</div> <!--minus sign-->
-        <div>&#37;</div>
+        <div class="number">4</div>
+        <div class="number">5</div>
+        <div class="number">6</div>
+        <div class="oper">-</div> <!--minus sign-->
+        <!--&#8722 the html code for the minus sign doesn't work, just use - -->
+        <div id="percentage">&#37;</div> <!--percent sybol-->
     </div>
     <div class="inner-divs" id="fourth-row">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div class="oper">&#43;</div> <!--plus sign-->
+        <div class="number">1</div>
+        <div class="number">2</div>
+        <div class="number">3</div>
+        <div class="oper">+</div> <!--plus sign-->
         <div id="clr">CLR</div>
     </div>
     <div class="inner-divs" id="fifth-row">
-        <div>0</div>
-        <div>.</div>
-        <div>&#43;/&#8722;</div>
-        <div class="oper">&#61;</div> <!--equals sign-->
+        <div class="number">0</div>
+        <div id="decimalpoint">.</div>
+        <div id="pos-neg">&#43;/&#8722;</div>  <!--pos/neg sign-->
+        <div id="equals">=</div> <!--equals sign-->
         <div></div>
     </div>
 
