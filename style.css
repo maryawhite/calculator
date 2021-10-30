@@ -48,14 +48,23 @@ footer {
     border-radius: 4px;
 }
 
+#pos-neg {
+    color: #042748;
+}
+
 #comet {
     color: orangered;
     font-size: 1.75em;
 }
 
+#paren1, #paren2 {
+    background-color: burlywood;
+}
+
 .inner-divs .oper {
     background-color: orangered;
 }
+
 
 @media screen and (min-width:768px){
     .inner-divs div {
